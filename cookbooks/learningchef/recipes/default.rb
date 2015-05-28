@@ -104,4 +104,8 @@ file '/tmp/permcheck' do
 	notifies :run , "execute[change-perms]", :immediately
 end
 
-
+#tar_extract "/home/saiteja/Downloads/node-v0.12.2-linux-x64.tar.gz" do
+#  action :extract_local
+#  target_dir "/tmp"
+#  tar_flags [ '-p', '-o' ]
+#end

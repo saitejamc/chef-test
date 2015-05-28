@@ -1,5 +1,5 @@
 default['user'] = 'saiteja'
-default['group'] = 'root'
+default['group'] = 'saiteja'
 default['perm'] = '0755'
 default['file'] = '/tmp/attr.txt'
 
